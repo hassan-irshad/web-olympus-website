@@ -29,6 +29,9 @@ const LogoContainerMobile = styled(Box)(({ theme }) => ({
   [theme.breakpoints.up("md")]: {
     display: "none",
   },
+  "> svg": {
+    height: "35px",
+  },
 }));
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
@@ -49,7 +52,7 @@ const DesktopLinksContainer = styled(Box)(({ theme }) => ({
 
 const StyledDesktopNavLink = styled(Button)({
   color: "#fff",
-  fontWeight: 600,
+  fontWeight: 500,
   letterSpacing: "0.98px",
   fontSize: "14px",
   ":hover": {
@@ -77,16 +80,13 @@ const ContactUsButton = styled(Button)(({ theme }) => ({
     borderColor: "#9C7339",
   },
   [theme.breakpoints.down("md")]: {
-    fontSize: "14px",
-  },
-  [theme.breakpoints.down("sm")]: {
     display: "none",
   },
 }));
 
 const PlaceholderIconButton = styled(IconButton)(({ theme }) => ({
   display: "none",
-  [theme.breakpoints.down("sm")]: {
+  [theme.breakpoints.down("md")]: {
     display: "block",
     opacity: 0,
   },
@@ -114,7 +114,6 @@ function Header() {
           <LogoContainer>
             <Logo />
           </LogoContainer>
-
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"

@@ -1,6 +1,7 @@
 import { styled } from "@mui/material/styles";
 
 const StyledSvg = styled("svg")(({ theme }) => ({
+  width: "100%",
   position: "absolute",
   top: 0,
   zIndex: 1,
@@ -15,7 +16,6 @@ const StyledSvg = styled("svg")(({ theme }) => ({
 export default function Shadow() {
   return (
     <StyledSvg
-      width="1396"
       height="360"
       viewBox="0 0 1396 377"
       fill="none"

@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { styled } from "@mui/material/styles";
-import Logo from "../logo";
+import { Logo } from "@web-olympus/components";
 
 const StyledAppBar = styled(AppBar)({
   backgroundColor: "#181818",

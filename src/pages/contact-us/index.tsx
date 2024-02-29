@@ -1,9 +1,11 @@
+import React from "react";
 import { Box, Container, Typography, Button } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import TextInput from "../../components/text-input";
-import SelectInput from "../../components/select-input";
-import React from "react";
-import ContactUsIllustration from "../../components/contact-us-illustration";
+import {
+  TextInput,
+  SelectInput,
+  ContactUsIllustration,
+} from "@web-olympus/components";
 
 const StyledContainer = styled(Container)(({ theme }) => ({
   paddingTop: "108px",

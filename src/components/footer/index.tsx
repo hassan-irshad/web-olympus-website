@@ -1,12 +1,14 @@
 import { Box, Container, Divider, IconButton, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import Logo from "../logo";
-import TwitterIcon from "../icons/twitter";
-import InstagramIcon from "../icons/instagram";
-import LinkedinIcon from "../icons/linkedin";
-import BehanceIcon from "../icons/behance";
-import BallIcon from "../icons/ball";
-import Shadow from "./shadow";
+import {
+  Logo,
+  TwitterIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  BallIcon,
+  BehanceIcon,
+} from "@web-olympus/components";
+import Shadow from "@web-olympus/components/footer/shadow";
 
 const MainBox = styled(Box)(({ theme }) => ({
   position: "relative",

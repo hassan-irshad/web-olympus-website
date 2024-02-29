@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
-import Header from "./components/header";
-import ContactUs from "./pages/contact-us";
-import Footer from "./components/footer";
+import { ContactUs } from "@web-olympus/pages";
+import { Header, Footer } from "@web-olympus/components";
 
 function App() {
   return (

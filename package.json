@@ -144,5 +144,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "tsconfig-paths-webpack-plugin": "^4.1.0"
   }
 }

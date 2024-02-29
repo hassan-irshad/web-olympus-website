@@ -7,6 +7,7 @@ import ContactUsIllustration from "../../components/contact-us-illustration";
 
 const StyledContainer = styled(Container)(({ theme }) => ({
   paddingTop: "108px",
+  paddingBottom: "144px",
   display: "flex",
   flexDirection: "row",
   gap: "57px",
@@ -25,7 +26,7 @@ const Title = styled(Typography)(({ theme }) => ({
   },
 }));
 
-const Description = styled(Typography)(({ theme }) => ({
+const Description = styled(Typography)(() => ({
   fontSize: "16px",
   fontWeight: 500,
   color: "#aaa",
@@ -33,13 +34,13 @@ const Description = styled(Typography)(({ theme }) => ({
   marginBottom: "48px",
 }));
 
-const FormFieldsContainer = styled(Box)(({ theme }) => ({
+const FormFieldsContainer = styled(Box)(() => ({
   display: "flex",
   flexDirection: "column",
   gap: "24px",
 }));
 
-const SubmitButton = styled(Button)(({ theme }) => ({
+const SubmitButton = styled(Button)(() => ({
   backgroundColor: "transparent",
   color: "#fff",
   border: "1px solid #fff",

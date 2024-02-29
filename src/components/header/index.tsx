@@ -23,6 +23,9 @@ const LogoContainer = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("md")]: {
     display: "none",
   },
+  "> svg": {
+    width: "179px",
+  },
 }));
 
 const LogoContainerMobile = styled(Box)(({ theme }) => ({
